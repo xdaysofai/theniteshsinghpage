@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+}
+
+div {
+    position: relative;
+
+}
+
+img {
+    position: absolute;
+    margin-right: auto;
+}
+
