@@ -1,8 +1,13 @@
 body {
   background-color: azure;
+  padding: 10px;
 }
 
-div {
+.main {
   position: relative;
 }
 
+.start {
+  position:absolute;
+  right: 0%;
+}
