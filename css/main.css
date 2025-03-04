@@ -1,0 +1,13 @@
+body {
+ 
+  padding: 10px;
+}
+
+.main {
+  position: relative;
+}
+
+.start {
+  position:absolute;
+  right: 0%;
+}
