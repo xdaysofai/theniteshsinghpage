@@ -20,6 +20,17 @@ h2 {
     margin: 0 0 8px 0;
 }
 
+h2.title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280; /* gray-500 */
+    margin-bottom: 16px;
+}
+
 h3 {
     font-size: 1.25rem;
     margin: 24px 0 8px 0;
@@ -44,6 +55,31 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
+/* Buttons */
+.actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.button {
+    display: inline-block;
+    background: #111827;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #111827;
+}
+
+.button:hover {
+    background: #ffffff;
+    color: #111827;
+}
+
 /* Image */
 .mypic {
     display: block;
@@ -54,6 +90,21 @@ a:hover, a:focus {
     margin: 16px auto 12px auto;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     border: 1px solid #e5e7eb; /* gray-200 */
+}
+
+/* Link list */
+.link-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.link-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f3f4f6; /* gray-100 */
+}
+
+.link-list li:last-child {
+    border-bottom: none;
 }
 
 /* Improve tap targets on mobile */
